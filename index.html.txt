@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Estet-Dent | Súkromná stomatologická ambulancia</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      background: #fff;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #f0f8ff;
+      padding: 20px 40px;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #ddd;
+    }
+    header img.logo {
+      height: 60px;
+    }
+    nav {
+      margin-left: auto;
+    }
+    nav a {
+      text-decoration: none;
+      color: #007aaf;
+      font-weight: 600;
+      margin-left: 20px;
+      font-size: 1rem;
+    }
+    nav a:hover {
+      color: #004466;
+    }
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h1, h2 {
+      color: #007aaf;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    .contact-info, .hours {
+      background: #e6f0fa;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      background: #f0f8ff;
+      border-top: 1px solid #ddd;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="logo" src="images/logo-estetdent.png" alt="Logo Estet Dent" />
+    <nav>
+      <a href="#onas">O nás</a>
+      <a href="#sluzby">Služby</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </header>
+  <main>
+    <section id="onas">
+      <h1>O nás</h1>
+      <p>Sme súkromná stomatologická ambulancia nachádzajúca sa v príjemnom prostredí. Náš tím tvorí jedna lekárka a dve sestričky - dentálne hygieničky. Ambulancia je vybavená 2 stomatologickými kreslami a iným nadštandardným zariadením.</p>
+      <p>Našim zameraním sú estetické riešenia chrupu bielymi výplňami alebo protetickými náhradami, čistenie zubov metódou air-flow, bielenie zubov, dentálna hygiena s inštruktážou a nácvikom domácej starostlivosti.</p>
+      <p>Ošetrenie poskytujeme deťom aj dospelým, všetkým, ktorí chcú mať krásny úsmev a svieži dych.</p>
+    </section>
+    <section id="sluzby">
+      <h2>Služby</h2>
+      <ul>
+        <li>Estetické riešenia chrupu (biele výplne, protetické náhrady)</li>
+        <li>Čistenie zubov metódou air-flow</li>
+        <li>Bielenie zubov</li>
+        <li>Dentálna hygiena s inštruktážou domácej starostlivosti</li>
+        <li>Ošetrenie detí aj dospelých</li>
+      </ul>
+    </section>
+    <section id="kontakt" class="contact-info">
+      <h2>Kontakt a ordinačné hodiny</h2>
+      <p>Telefonický kontakt: +421 903 665 336</p>
+      <div class="hours">
+        <h3>Ordinačné hodiny - ambulancia čeľustnej ortopédie</h3>
+        <p>Pondelok: 8.00 - 14.00</p>
+        <p>Utorok: 8.00 - 12.00</p>
+        <p>Streda: 9.00 - 14.00</p>
+        <p>Štvrtok: 8.00 - 12.00</p>
+        <p>Piatok: 8.00 - 12.00</p>
+        <h3>Ordinačné hodiny - ambulancia zubného lekárstva</h3>
+        <p>Streda: 8.00 - 9.00</p>
+      </div>
+      <p><strong>Upozornenie:</strong> V dňoch 12. – 19.02. ambulancia z dôvodu dovolenky neordinuje.</p>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Estet-Dent. Všetky práva vyhradené.
+  </footer>
+</body>
+</html>
